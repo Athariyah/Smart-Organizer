@@ -474,6 +474,7 @@ const MainAppContent: React.FC = () => {
               templates={templates}
               onSave={handleSaveInvoice}
               onCancel={() => navigateTo('/invoices')}
+              onNavigate={navigateTo}
             />
           )}
 
@@ -484,6 +485,7 @@ const MainAppContent: React.FC = () => {
               templates={templates}
               onSave={handleSaveInvoice}
               onCancel={() => navigateTo('/invoices')}
+              onNavigate={navigateTo}
             />
           )}
 

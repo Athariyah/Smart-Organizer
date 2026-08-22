@@ -1,0 +1,6 @@
+{
+  "name": "Умный органайзер для самозанятых",
+  "description": "MVP веб-приложения для самозанятых фрилансеров: счета, CRM клиентов, календарь, доска задач, расчет налога НПД и отчеты.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

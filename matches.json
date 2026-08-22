@@ -1,0 +1,1090 @@
+[
+  {
+    "file": "src/App.tsx",
+    "match": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "ru": "Умный Органайзер",
+    "en": "Smart Organizer",
+    "full": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "type": "ru"
+  },
+  {
+    "file": "src/App.tsx",
+    "match": "language === 'ru' ? 'Войти в личный кабинет' : 'Open Dashboard'",
+    "ru": "Войти в личный кабинет",
+    "en": "Open Dashboard",
+    "full": "language === 'ru' ? 'Войти в личный кабинет' : 'Open Dashboard'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/TaxesView.tsx",
+    "match": "language === 'en' ? 'Auto-categorization of professional expenses (IT)' : 'Авто-категоризация профессиональных расходов (IT)'",
+    "en": "Auto-categorization of professional expenses (IT)",
+    "ru": "Авто-категоризация профессиональных расходов (IT)",
+    "full": "language === 'en' ? 'Auto-categorization of professional expenses (IT)' : 'Авто-категоризация профессиональных расходов (IT)'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TaxesView.tsx",
+    "match": "language === 'en' ? 'Scan transactions' : 'Сканировать транзакции'",
+    "en": "Scan transactions",
+    "ru": "Сканировать транзакции",
+    "full": "language === 'en' ? 'Scan transactions' : 'Сканировать транзакции'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TaxesView.tsx",
+    "match": "language === 'en' ? 'Auto-tracking active' : 'Авто-трекинг активен'",
+    "en": "Auto-tracking active",
+    "ru": "Авто-трекинг активен",
+    "full": "language === 'en' ? 'Auto-tracking active' : 'Авто-трекинг активен'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TaxesView.tsx",
+    "match": "language === 'en' ? 'Total IT expenses for the month:' : 'Суммарные IT-расходы за месяц:'",
+    "en": "Total IT expenses for the month:",
+    "ru": "Суммарные IT-расходы за месяц:",
+    "full": "language === 'en' ? 'Total IT expenses for the month:' : 'Суммарные IT-расходы за месяц:'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'To Do' : 'К выполнению'",
+    "en": "To Do",
+    "ru": "К выполнению",
+    "full": "language === 'en' ? 'To Do' : 'К выполнению'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'In Progress' : 'В работе'",
+    "en": "In Progress",
+    "ru": "В работе",
+    "full": "language === 'en' ? 'In Progress' : 'В работе'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'Done' : 'Завершено'",
+    "en": "Done",
+    "ru": "Завершено",
+    "full": "language === 'en' ? 'Done' : 'Завершено'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'GitHub synchronization started. Commits will be imported as Work Logs.' : 'Синхронизация с GitHub запущена. Коммиты будут импортированы как Work Logs.'",
+    "en": "GitHub synchronization started. Commits will be imported as Work Logs.",
+    "ru": "Синхронизация с GitHub запущена. Коммиты будут импортированы как Work Logs.",
+    "full": "language === 'en' ? 'GitHub synchronization started. Commits will be imported as Work Logs.' : 'Синхронизация с GitHub запущена. Коммиты будут импортированы как Work Logs.'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'GitHub Sync' : 'Синхронизация GitHub'",
+    "en": "GitHub Sync",
+    "ru": "Синхронизация GitHub",
+    "full": "language === 'en' ? 'GitHub Sync' : 'Синхронизация GitHub'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'Sync GH' : 'Синх. GH'",
+    "en": "Sync GH",
+    "ru": "Синх. GH",
+    "full": "language === 'en' ? 'Sync GH' : 'Синх. GH'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'New Task' : 'Новая задача'",
+    "en": "New Task",
+    "ru": "Новая задача",
+    "full": "language === 'en' ? 'New Task' : 'Новая задача'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/TasksView.tsx",
+    "match": "language === 'en' ? 'Client' : 'Клиент'",
+    "en": "Client",
+    "ru": "Клиент",
+    "full": "language === 'en' ? 'Client' : 'Клиент'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/SettingsView.tsx",
+    "match": "language === 'en' ? 'Add this snippet to your' : 'Добавьте этот сниппет в ваш'",
+    "en": "Add this snippet to your",
+    "ru": "Добавьте этот сниппет в ваш",
+    "full": "language === 'en' ? 'Add this snippet to your' : 'Добавьте этот сниппет в ваш'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/SettingsView.tsx",
+    "match": "language === 'en' ? 'for automatic dispatch of activity logs (Work Logs) directly to the dashboard.' : 'для автоматической отправки логов активности (Work Logs) прямо в дашборд.'",
+    "en": "for automatic dispatch of activity logs (Work Logs) directly to the dashboard.",
+    "ru": "для автоматической отправки логов активности (Work Logs) прямо в дашборд.",
+    "full": "language === 'en' ? 'for automatic dispatch of activity logs (Work Logs) directly to the dashboard.' : 'для автоматической отправки логов активности (Work Logs) прямо в дашборд.'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/SettingsView.tsx",
+    "match": "language === 'en' ? 'Snippet copied to clipboard!' : 'Сниппет скопирован в буфер обмена!'",
+    "en": "Snippet copied to clipboard!",
+    "ru": "Сниппет скопирован в буфер обмена!",
+    "full": "language === 'en' ? 'Snippet copied to clipboard!' : 'Сниппет скопирован в буфер обмена!'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/ReportsView.tsx",
+    "match": "language === 'en' ? 'May' : 'Май'",
+    "en": "May",
+    "ru": "Май",
+    "full": "language === 'en' ? 'May' : 'Май'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/ReportsView.tsx",
+    "match": "language === 'en' ? 'Jun' : 'Июн'",
+    "en": "Jun",
+    "ru": "Июн",
+    "full": "language === 'en' ? 'Jun' : 'Июн'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/ReportsView.tsx",
+    "match": "language === 'en' ? 'Jul' : 'Июл'",
+    "en": "Jul",
+    "ru": "Июл",
+    "full": "language === 'en' ? 'Jul' : 'Июл'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/ReportsView.tsx",
+    "match": "language === 'en' ? 'NPD Tax' : 'Налог НПД'",
+    "en": "NPD Tax",
+    "ru": "Налог НПД",
+    "full": "language === 'en' ? 'NPD Tax' : 'Налог НПД'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Официальные счета с QR-кодом и PDF' : 'Official Invoices with QR & PDF'",
+    "ru": "Официальные счета с QR-кодом и PDF",
+    "en": "Official Invoices with QR & PDF",
+    "full": "language === 'ru' ? 'Официальные счета с QR-кодом и PDF' : 'Official Invoices with QR & PDF'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Смотреть счета' : 'View Invoices'",
+    "ru": "Смотреть счета",
+    "en": "View Invoices",
+    "full": "language === 'ru' ? 'Смотреть счета' : 'View Invoices'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Авторасчет налога НПД (4% и 6%)' : 'Auto-calculated NPD Tax (4% & 6%)'",
+    "ru": "Авторасчет налога НПД (4% и 6%)",
+    "en": "Auto-calculated NPD Tax (4% & 6%)",
+    "full": "language === 'ru' ? 'Авторасчет налога НПД (4% и 6%)' : 'Auto-calculated NPD Tax (4% & 6%)'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Рассчитать налог' : 'Calculate Tax'",
+    "ru": "Рассчитать налог",
+    "en": "Calculate Tax",
+    "full": "language === 'ru' ? 'Рассчитать налог' : 'Calculate Tax'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'CRM-база клиентов и расчет выручки (LTV)' : 'Client CRM & LTV Revenue Tracking'",
+    "ru": "CRM-база клиентов и расчет выручки (LTV)",
+    "en": "Client CRM & LTV Revenue Tracking",
+    "full": "language === 'ru' ? 'CRM-база клиентов и расчет выручки (LTV)' : 'Client CRM & LTV Revenue Tracking'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Смотреть базу CRM' : 'View CRM Database'",
+    "ru": "Смотреть базу CRM",
+    "en": "View CRM Database",
+    "full": "language === 'ru' ? 'Смотреть базу CRM' : 'View CRM Database'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Календарь встреч и онлайн-букинг' : 'Meeting Calendar & Slot Booking'",
+    "ru": "Календарь встреч и онлайн-букинг",
+    "en": "Meeting Calendar & Slot Booking",
+    "full": "language === 'ru' ? 'Календарь встреч и онлайн-букинг' : 'Meeting Calendar & Slot Booking'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Открыть календарь' : 'Open Calendar'",
+    "ru": "Открыть календарь",
+    "en": "Open Calendar",
+    "full": "language === 'ru' ? 'Открыть календарь' : 'Open Calendar'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Канбан-доска проектов и задач' : 'Kanban Project & Task Board'",
+    "ru": "Канбан-доска проектов и задач",
+    "en": "Kanban Project & Task Board",
+    "full": "language === 'ru' ? 'Канбан-доска проектов и задач' : 'Kanban Project & Task Board'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Перейти к задачам' : 'Go to Tasks'",
+    "ru": "Перейти к задачам",
+    "en": "Go to Tasks",
+    "full": "language === 'ru' ? 'Перейти к задачам' : 'Go to Tasks'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Аналитика, акты и калькулятор ставки часа' : 'Analytics, Acts & Hourly Rate Calc'",
+    "ru": "Аналитика, акты и калькулятор ставки часа",
+    "en": "Analytics, Acts & Hourly Rate Calc",
+    "full": "language === 'ru' ? 'Аналитика, акты и калькулятор ставки часа' : 'Analytics, Acts & Hourly Rate Calc'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Смотреть аналитику' : 'View Analytics'",
+    "ru": "Смотреть аналитику",
+    "en": "View Analytics",
+    "full": "language === 'ru' ? 'Смотреть аналитику' : 'View Analytics'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Добавьте заказчика' : 'Add Client Details'",
+    "ru": "Добавьте заказчика",
+    "en": "Add Client Details",
+    "full": "language === 'ru' ? 'Добавьте заказчика' : 'Add Client Details'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Сформируйте счет с QR-кодом' : 'Generate Invoice with QR'",
+    "ru": "Сформируйте счет с QR-кодом",
+    "en": "Generate Invoice with QR",
+    "full": "language === 'ru' ? 'Сформируйте счет с QR-кодом' : 'Generate Invoice with QR'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Отслеживайте оплату и налог' : 'Track Payment & NPD Tax'",
+    "ru": "Отслеживайте оплату и налог",
+    "en": "Track Payment & NPD Tax",
+    "full": "language === 'ru' ? 'Отслеживайте оплату и налог' : 'Track Payment & NPD Tax'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Подходит ли сервис для официальной работы по 422-ФЗ?' : 'Is the service compliant with Federal Law 422-FZ for Self-Employed?'",
+    "ru": "Подходит ли сервис для официальной работы по 422-ФЗ?",
+    "en": "Is the service compliant with Federal Law 422-FZ for Self-Employed?",
+    "full": "language === 'ru' ? 'Подходит ли сервис для официальной работы по 422-ФЗ?' : 'Is the service compliant with Federal Law 422-FZ for Self-Employed?'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Как рассчитывается налог НПД (4% и 6%)?' : 'How is the NPD tax calculated (4% vs 6%)?'",
+    "ru": "Как рассчитывается налог НПД (4% и 6%)?",
+    "en": "How is the NPD tax calculated (4% vs 6%)?",
+    "full": "language === 'ru' ? 'Как рассчитывается налог НПД (4% и 6%)?' : 'How is the NPD tax calculated (4% vs 6%)?'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Как клиент может оплатить счет по QR-коду?' : 'How does a client pay via the QR code?'",
+    "ru": "Как клиент может оплатить счет по QR-коду?",
+    "en": "How does a client pay via the QR code?",
+    "full": "language === 'ru' ? 'Как клиент может оплатить счет по QR-коду?' : 'How does a client pay via the QR code?'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Где хранятся мои данные?' : 'Where is my data stored?'",
+    "ru": "Где хранятся мои данные?",
+    "en": "Where is my data stored?",
+    "full": "language === 'ru' ? 'Где хранятся мои данные?' : 'Where is my data stored?'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "ru": "Умный Органайзер",
+    "en": "Smart Organizer",
+    "full": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Самозанятый 422-ФЗ' : 'Freelance Workspace'",
+    "ru": "Самозанятый 422-ФЗ",
+    "en": "Freelance Workspace",
+    "full": "language === 'ru' ? 'Самозанятый 422-ФЗ' : 'Freelance Workspace'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Возможности' : 'Features'",
+    "ru": "Возможности",
+    "en": "Features",
+    "full": "language === 'ru' ? 'Возможности' : 'Features'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Калькулятор НПД' : 'Tax Calculator'",
+    "ru": "Калькулятор НПД",
+    "en": "Tax Calculator",
+    "full": "language === 'ru' ? 'Калькулятор НПД' : 'Tax Calculator'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Как это работает' : 'How it Works'",
+    "ru": "Как это работает",
+    "en": "How it Works",
+    "full": "language === 'ru' ? 'Как это работает' : 'How it Works'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Вопросы и ответы' : 'FAQ'",
+    "ru": "Вопросы и ответы",
+    "en": "FAQ",
+    "full": "language === 'ru' ? 'Вопросы и ответы' : 'FAQ'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Switch to English' : 'Переключить на русский'",
+    "ru": "Switch to English",
+    "en": "Переключить на русский",
+    "full": "language === 'ru' ? 'Switch to English' : 'Переключить на русский'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Соответствует 422-ФЗ' : '422-FZ Compliant'",
+    "ru": "Соответствует 422-ФЗ",
+    "en": "422-FZ Compliant",
+    "full": "language === 'ru' ? 'Соответствует 422-ФЗ' : '422-FZ Compliant'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'QR-код для банков РФ' : 'GOST Bank QR'",
+    "ru": "QR-код для банков РФ",
+    "en": "GOST Bank QR",
+    "full": "language === 'ru' ? 'QR-код для банков РФ' : 'GOST Bank QR'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? '100% Конфиденциально' : '100% Private & Local'",
+    "ru": "100% Конфиденциально",
+    "en": "100% Private & Local",
+    "full": "language === 'ru' ? '100% Конфиденциально' : '100% Private & Local'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Интерактивный расчет в реальном времени' : 'Real-time interactive calculation'",
+    "ru": "Интерактивный расчет в реальном времени",
+    "en": "Real-time interactive calculation",
+    "full": "language === 'ru' ? 'Интерактивный расчет в реальном времени' : 'Real-time interactive calculation'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Снижает ставки до 3% и 4%' : 'Lowers rates to 3% and 4%'",
+    "ru": "Снижает ставки до 3% и 4%",
+    "en": "Lowers rates to 3% and 4%",
+    "full": "language === 'ru' ? 'Снижает ставки до 3% и 4%' : 'Lowers rates to 3% and 4%'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'со скидкой по вычету' : 'with deduction discount'",
+    "ru": "со скидкой по вычету",
+    "en": "with deduction discount",
+    "full": "language === 'ru' ? 'со скидкой по вычету' : 'with deduction discount'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'по базовой ставке' : 'standard rate'",
+    "ru": "по базовой ставке",
+    "en": "standard rate",
+    "full": "language === 'ru' ? 'по базовой ставке' : 'standard rate'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Перейти в налоговый модуль' : 'Open Tax Center'",
+    "ru": "Перейти в налоговый модуль",
+    "en": "Open Tax Center",
+    "full": "language === 'ru' ? 'Перейти в налоговый модуль' : 'Open Tax Center'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Функционал 6-в-1' : '6-in-1 Toolkit'",
+    "ru": "Функционал 6-в-1",
+    "en": "6-in-1 Toolkit",
+    "full": "language === 'ru' ? 'Функционал 6-в-1' : '6-in-1 Toolkit'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Простой процесс' : 'Simple Process'",
+    "ru": "Простой процесс",
+    "en": "Simple Process",
+    "full": "language === 'ru' ? 'Простой процесс' : 'Simple Process'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Как устроен ваш рабочий день' : 'How your day works'",
+    "ru": "Как устроен ваш рабочий день",
+    "en": "How your day works",
+    "full": "language === 'ru' ? 'Как устроен ваш рабочий день' : 'How your day works'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Почему выбирают Умный Органайзер' : 'Why Smart Organizer'",
+    "ru": "Почему выбирают Умный Органайзер",
+    "en": "Why Smart Organizer",
+    "full": "language === 'ru' ? 'Почему выбирают Умный Органайзер' : 'Why Smart Organizer'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Excel / Блокноты' : 'Excel / Manual'",
+    "ru": "Excel / Блокноты",
+    "en": "Excel / Manual",
+    "full": "language === 'ru' ? 'Excel / Блокноты' : 'Excel / Manual'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Ручной пересчет налога 4% и 6%' : 'Manual 4% & 6% tax formulas'",
+    "ru": "Ручной пересчет налога 4% и 6%",
+    "en": "Manual 4% & 6% tax formulas",
+    "full": "language === 'ru' ? 'Ручной пересчет налога 4% и 6%' : 'Manual 4% & 6% tax formulas'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Сложно сгенерировать ГОСТ QR-код' : 'No instant banking QR code'",
+    "ru": "Сложно сгенерировать ГОСТ QR-код",
+    "en": "No instant banking QR code",
+    "full": "language === 'ru' ? 'Сложно сгенерировать ГОСТ QR-код' : 'No instant banking QR code'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Риск пропустить дедлайн уплаты' : 'Missed deadlines and late fees'",
+    "ru": "Риск пропустить дедлайн уплаты",
+    "en": "Missed deadlines and late fees",
+    "full": "language === 'ru' ? 'Риск пропустить дедлайн уплаты' : 'Missed deadlines and late fees'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Нет единой базы клиентов и LTV' : 'No unified CRM or client history'",
+    "ru": "Нет единой базы клиентов и LTV",
+    "en": "No unified CRM or client history",
+    "full": "language === 'ru' ? 'Нет единой базы клиентов и LTV' : 'No unified CRM or client history'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "ru": "Умный Органайзер",
+    "en": "Smart Organizer",
+    "full": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Автоматический расчет НПД и вычета' : 'Auto 4%/6% tax + 10,000 ₽ deduction'",
+    "ru": "Автоматический расчет НПД и вычета",
+    "en": "Auto 4%/6% tax + 10,000 ₽ deduction",
+    "full": "language === 'ru' ? 'Автоматический расчет НПД и вычета' : 'Auto 4%/6% tax + 10,000 ₽ deduction'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'ГОСТ QR-код для мгновенной оплаты' : 'Standard banking QR on all invoices'",
+    "ru": "ГОСТ QR-код для мгновенной оплаты",
+    "en": "Standard banking QR on all invoices",
+    "full": "language === 'ru' ? 'ГОСТ QR-код для мгновенной оплаты' : 'Standard banking QR on all invoices'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Уведомления за 24 часа до дедлайна' : '24-hour urgency alerts & notifications'",
+    "ru": "Уведомления за 24 часа до дедлайна",
+    "en": "24-hour urgency alerts & notifications",
+    "full": "language === 'ru' ? 'Уведомления за 24 часа до дедлайна' : '24-hour urgency alerts & notifications'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'CRM 360°, канбан и калькулятор часа' : 'Full CRM, Kanban board & hour calculator'",
+    "ru": "CRM 360°, канбан и калькулятор часа",
+    "en": "Full CRM, Kanban board & hour calculator",
+    "full": "language === 'ru' ? 'CRM 360°, канбан и калькулятор часа' : 'Full CRM, Kanban board & hour calculator'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Часто задаваемые вопросы' : 'Frequently Asked Questions'",
+    "ru": "Часто задаваемые вопросы",
+    "en": "Frequently Asked Questions",
+    "full": "language === 'ru' ? 'Часто задаваемые вопросы' : 'Frequently Asked Questions'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Умный Органайзер Самозанятого' : 'Smart Organizer for Self-Employed'",
+    "ru": "Умный Органайзер Самозанятого",
+    "en": "Smart Organizer for Self-Employed",
+    "full": "language === 'ru' ? 'Умный Органайзер Самозанятого' : 'Smart Organizer for Self-Employed'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'ru' ? 'Разработано в соответствии с 422-ФЗ и стандартами ФНС РФ.' : 'Built in accordance with 422-FZ.'",
+    "ru": "Разработано в соответствии с 422-ФЗ и стандартами ФНС РФ.",
+    "en": "Built in accordance with 422-FZ.",
+    "full": "language === 'ru' ? 'Разработано в соответствии с 422-ФЗ и стандартами ФНС РФ.' : 'Built in accordance with 422-FZ.'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'en' ? 'GOST QR Code' : 'ГОСТ QR-код'",
+    "en": "GOST QR Code",
+    "ru": "ГОСТ QR-код",
+    "full": "language === 'en' ? 'GOST QR Code' : 'ГОСТ QR-код'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'en' ? '422-FZ Tax Law' : '422-ФЗ'",
+    "en": "422-FZ Tax Law",
+    "ru": "422-ФЗ",
+    "full": "language === 'en' ? '422-FZ Tax Law' : '422-ФЗ'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/LandingView.tsx",
+    "match": "language === 'en' ? 'CRM 360°' : 'CRM 360°'",
+    "en": "CRM 360°",
+    "ru": "CRM 360°",
+    "full": "language === 'en' ? 'CRM 360°' : 'CRM 360°'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/InvoicesView.tsx",
+    "match": "language === 'ru' ? 'шт.' : 'pcs'",
+    "ru": "шт.",
+    "en": "pcs",
+    "full": "language === 'ru' ? 'шт.' : 'pcs'",
+    "type": "ru"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'May' : 'Май'",
+    "en": "May",
+    "ru": "Май",
+    "full": "language === 'en' ? 'May' : 'Май'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Jun' : 'Июн'",
+    "en": "Jun",
+    "ru": "Июн",
+    "full": "language === 'en' ? 'Jun' : 'Июн'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Jul' : 'Июл'",
+    "en": "Jul",
+    "ru": "Июл",
+    "full": "language === 'en' ? 'Jul' : 'Июл'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Aug (plan)' : 'Авг (план)'",
+    "en": "Aug (plan)",
+    "ru": "Авг (план)",
+    "full": "language === 'en' ? 'Aug (plan)' : 'Авг (план)'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Summary of income, issued invoices, and self-employed taxes for the current period' : 'Сводка доходов, выставленных счетов и налогов самозанятого за текущий период'",
+    "en": "Summary of income, issued invoices, and self-employed taxes for the current period",
+    "ru": "Сводка доходов, выставленных счетов и налогов самозанятого за текущий период",
+    "full": "language === 'en' ? 'Summary of income, issued invoices, and self-employed taxes for the current period' : 'Сводка доходов, выставленных счетов и налогов самозанятого за текущий период'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'NPD Tax' : 'Налог НПД'",
+    "en": "NPD Tax",
+    "ru": "Налог НПД",
+    "full": "language === 'en' ? 'NPD Tax' : 'Налог НПД'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Latest imported commits (GitHub)' : 'Последние импортированные коммиты (GitHub)'",
+    "en": "Latest imported commits (GitHub)",
+    "ru": "Последние импортированные коммиты (GitHub)",
+    "full": "language === 'en' ? 'Latest imported commits (GitHub)' : 'Последние импортированные коммиты (GitHub)'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Yesterday' : 'Вчера'",
+    "en": "Yesterday",
+    "ru": "Вчера",
+    "full": "language === 'en' ? 'Yesterday' : 'Вчера'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Yesterday' : 'Вчера'",
+    "en": "Yesterday",
+    "ru": "Вчера",
+    "full": "language === 'en' ? 'Yesterday' : 'Вчера'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Activity Feed' : 'Лента событий'",
+    "en": "Activity Feed",
+    "ru": "Лента событий",
+    "full": "language === 'en' ? 'Activity Feed' : 'Лента событий'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'Detailed audit →' : 'Подробный аудит →'",
+    "en": "Detailed audit →",
+    "ru": "Подробный аудит →",
+    "full": "language === 'en' ? 'Detailed audit →' : 'Подробный аудит →'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/DashboardView.tsx",
+    "match": "language === 'en' ? 'In Progress' : 'В работе'",
+    "en": "In Progress",
+    "ru": "В работе",
+    "full": "language === 'en' ? 'In Progress' : 'В работе'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'May' : 'Май'",
+    "en": "May",
+    "ru": "Май",
+    "full": "language === 'en' ? 'May' : 'Май'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Jun' : 'Июн'",
+    "en": "Jun",
+    "ru": "Июн",
+    "full": "language === 'en' ? 'Jun' : 'Июн'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Jul' : 'Июл'",
+    "en": "Jul",
+    "ru": "Июл",
+    "full": "language === 'en' ? 'Jul' : 'Июл'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Billable hours vs Actual time (GitHub)' : 'Оплачиваемые часы vs Фактическое время (GitHub)'",
+    "en": "Billable hours vs Actual time (GitHub)",
+    "ru": "Оплачиваемые часы vs Фактическое время (GitHub)",
+    "full": "language === 'en' ? 'Billable hours vs Actual time (GitHub)' : 'Оплачиваемые часы vs Фактическое время (GitHub)'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Week 1' : 'Нед 1'",
+    "en": "Week 1",
+    "ru": "Нед 1",
+    "full": "language === 'en' ? 'Week 1' : 'Нед 1'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Week 2' : 'Нед 2'",
+    "en": "Week 2",
+    "ru": "Нед 2",
+    "full": "language === 'en' ? 'Week 2' : 'Нед 2'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Week 3' : 'Нед 3'",
+    "en": "Week 3",
+    "ru": "Нед 3",
+    "full": "language === 'en' ? 'Week 3' : 'Нед 3'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Week 4' : 'Нед 4'",
+    "en": "Week 4",
+    "ru": "Нед 4",
+    "full": "language === 'en' ? 'Week 4' : 'Нед 4'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Week 5' : 'Нед 5'",
+    "en": "Week 5",
+    "ru": "Нед 5",
+    "full": "language === 'en' ? 'Week 5' : 'Нед 5'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Actual commit time (Coding)' : 'Фактическое время по коммитам (Coding)'",
+    "en": "Actual commit time (Coding)",
+    "ru": "Фактическое время по коммитам (Coding)",
+    "full": "language === 'en' ? 'Actual commit time (Coding)' : 'Фактическое время по коммитам (Coding)'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Billable hours' : 'Оплачиваемые часы (Billable)'",
+    "en": "Billable hours",
+    "ru": "Оплачиваемые часы (Billable)",
+    "full": "language === 'en' ? 'Billable hours' : 'Оплачиваемые часы (Billable)'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Visualization of GitHub commit activity vs task progress (Work Logs).' : 'Визуализация активности коммитов GitHub относительно прогресса задач (Work Logs).'",
+    "en": "Visualization of GitHub commit activity vs task progress (Work Logs).",
+    "ru": "Визуализация активности коммитов GitHub относительно прогресса задач (Work Logs).",
+    "full": "language === 'en' ? 'Visualization of GitHub commit activity vs task progress (Work Logs).' : 'Визуализация активности коммитов GitHub относительно прогресса задач (Work Logs).'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Focus' : 'Фокус'",
+    "en": "Focus",
+    "ru": "Фокус",
+    "full": "language === 'en' ? 'Focus' : 'Фокус'",
+    "type": "en"
+  },
+  {
+    "file": "src/views/AnalyticsView.tsx",
+    "match": "language === 'en' ? 'Total (Billable)' : 'Всего (Billable)'",
+    "en": "Total (Billable)",
+    "ru": "Всего (Billable)",
+    "full": "language === 'en' ? 'Total (Billable)' : 'Всего (Billable)'",
+    "type": "en"
+  },
+  {
+    "file": "src/context/LocalizationContext.tsx",
+    "match": "language === 'ru' ? 'en' : 'ru'",
+    "ru": "en",
+    "en": "ru",
+    "full": "language === 'ru' ? 'en' : 'ru'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Sidebar.tsx",
+    "match": "language === 'ru' ? 'актив.' : 'act.'",
+    "ru": "актив.",
+    "en": "act.",
+    "full": "language === 'ru' ? 'актив.' : 'act.'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Sidebar.tsx",
+    "match": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "ru": "Умный Органайзер",
+    "en": "Smart Organizer",
+    "full": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Sidebar.tsx",
+    "match": "language === 'ru' ? '422-ФЗ Самозанятый' : '422-FZ Freelance'",
+    "ru": "422-ФЗ Самозанятый",
+    "en": "422-FZ Freelance",
+    "full": "language === 'ru' ? '422-ФЗ Самозанятый' : '422-FZ Freelance'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Sidebar.tsx",
+    "match": "language === 'ru' ? 'ФНС Мой Налог & 422-ФЗ' : 'Tax Service & 422-FZ'",
+    "ru": "ФНС Мой Налог & 422-ФЗ",
+    "en": "Tax Service & 422-FZ",
+    "full": "language === 'ru' ? 'ФНС Мой Налог & 422-ФЗ' : 'Tax Service & 422-FZ'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Алексей Смирнов' : 'Alexey Smirnov'",
+    "ru": "Алексей Смирнов",
+    "en": "Alexey Smirnov",
+    "full": "language === 'ru' ? 'Алексей Смирнов' : 'Alexey Smirnov'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Редактирование счета' : 'Edit Invoice'",
+    "ru": "Редактирование счета",
+    "en": "Edit Invoice",
+    "full": "language === 'ru' ? 'Редактирование счета' : 'Edit Invoice'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Публичный счет на оплату' : 'Public Invoice'",
+    "ru": "Публичный счет на оплату",
+    "en": "Public Invoice",
+    "full": "language === 'ru' ? 'Публичный счет на оплату' : 'Public Invoice'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Детали счета' : 'Invoice Details'",
+    "ru": "Детали счета",
+    "en": "Invoice Details",
+    "full": "language === 'ru' ? 'Детали счета' : 'Invoice Details'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "ru": "Умный Органайзер",
+    "en": "Smart Organizer",
+    "full": "language === 'ru' ? 'Умный Органайзер' : 'Smart Organizer'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Поиск счетов, клиентов, задач...' : 'Search invoices, clients, tasks...'",
+    "ru": "Поиск счетов, клиентов, задач...",
+    "en": "Search invoices, clients, tasks...",
+    "full": "language === 'ru' ? 'Поиск счетов, клиентов, задач...' : 'Search invoices, clients, tasks...'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Результаты поиска' : 'Search Results'",
+    "ru": "Результаты поиска",
+    "en": "Search Results",
+    "full": "language === 'ru' ? 'Результаты поиска' : 'Search Results'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Быстрый переход' : 'Quick Navigation'",
+    "ru": "Быстрый переход",
+    "en": "Quick Navigation",
+    "full": "language === 'ru' ? 'Быстрый переход' : 'Quick Navigation'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Esc чтобы закрыть' : 'Esc to close'",
+    "ru": "Esc чтобы закрыть",
+    "en": "Esc to close",
+    "full": "language === 'ru' ? 'Esc чтобы закрыть' : 'Esc to close'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Введите поисковый запрос (номер счета, ИНН, имя клиента, название задачи)' : 'Type to search invoices, clients or tasks'",
+    "ru": "Введите поисковый запрос (номер счета, ИНН, имя клиента, название задачи)",
+    "en": "Type to search invoices, clients or tasks",
+    "full": "language === 'ru' ? 'Введите поисковый запрос (номер счета, ИНН, имя клиента, название задачи)' : 'Type to search invoices, clients or tasks'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Счета на оплату' : 'Invoices'",
+    "ru": "Счета на оплату",
+    "en": "Invoices",
+    "full": "language === 'ru' ? 'Счета на оплату' : 'Invoices'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Клиенты и контрагенты' : 'Clients'",
+    "ru": "Клиенты и контрагенты",
+    "en": "Clients",
+    "full": "language === 'ru' ? 'Клиенты и контрагенты' : 'Clients'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Задачи' : 'Tasks'",
+    "ru": "Задачи",
+    "en": "Tasks",
+    "full": "language === 'ru' ? 'Задачи' : 'Tasks'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Попробуйте изменить запрос или поискать по ИНН, номеру или названию' : 'Try searching by number, INN or name'",
+    "ru": "Попробуйте изменить запрос или поискать по ИНН, номеру или названию",
+    "en": "Try searching by number, INN or name",
+    "full": "language === 'ru' ? 'Попробуйте изменить запрос или поискать по ИНН, номеру или названию' : 'Try searching by number, INN or name'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Переключить на English' : 'Switch to Russian'",
+    "ru": "Переключить на English",
+    "en": "Switch to Russian",
+    "full": "language === 'ru' ? 'Переключить на English' : 'Switch to Russian'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'дедлайн 24ч' : 'due 24h'",
+    "ru": "дедлайн 24ч",
+    "en": "due 24h",
+    "full": "language === 'ru' ? 'дедлайн 24ч' : 'due 24h'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Клиенту или юрлицу' : 'To client or company'",
+    "ru": "Клиенту или юрлицу",
+    "en": "To client or company",
+    "full": "language === 'ru' ? 'Клиенту или юрлицу' : 'To client or company'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'В канбан-доску' : 'Into Kanban board'",
+    "ru": "В канбан-доску",
+    "en": "Into Kanban board",
+    "full": "language === 'ru' ? 'В канбан-доску' : 'Into Kanban board'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'В базу CRM' : 'Into CRM database'",
+    "ru": "В базу CRM",
+    "en": "Into CRM database",
+    "full": "language === 'ru' ? 'В базу CRM' : 'Into CRM database'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Расчет 4% и 6% НПД' : '4% & 6% calculation'",
+    "ru": "Расчет 4% и 6% НПД",
+    "en": "4% & 6% calculation",
+    "full": "language === 'ru' ? 'Расчет 4% и 6% НПД' : '4% & 6% calculation'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'ru' ? 'Все задачи' : 'All tasks'",
+    "ru": "Все задачи",
+    "en": "All tasks",
+    "full": "language === 'ru' ? 'Все задачи' : 'All tasks'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'en' ? 'Focused session completed. Logged:' : 'Сфокусированная сессия завершена. Записано:'",
+    "en": "Focused session completed. Logged:",
+    "ru": "Сфокусированная сессия завершена. Записано:",
+    "full": "language === 'en' ? 'Focused session completed. Logged:' : 'Сфокусированная сессия завершена. Записано:'",
+    "type": "en"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'en' ? 'In Progress' : 'В работе'",
+    "en": "In Progress",
+    "ru": "В работе",
+    "full": "language === 'en' ? 'In Progress' : 'В работе'",
+    "type": "en"
+  },
+  {
+    "file": "src/components/Navbar.tsx",
+    "match": "language === 'en' ? 'To Do' : 'К выполнению'",
+    "en": "To Do",
+    "ru": "К выполнению",
+    "full": "language === 'en' ? 'To Do' : 'К выполнению'",
+    "type": "en"
+  },
+  {
+    "file": "src/components/KeyboardShortcutsModal.tsx",
+    "match": "language === 'ru' ? 'Горячие клавиши (Keyboard Shortcuts)' : 'Keyboard Shortcuts'",
+    "ru": "Горячие клавиши (Keyboard Shortcuts)",
+    "en": "Keyboard Shortcuts",
+    "full": "language === 'ru' ? 'Горячие клавиши (Keyboard Shortcuts)' : 'Keyboard Shortcuts'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/KeyboardShortcutsModal.tsx",
+    "match": "language === 'ru' ? 'Быстрая навигация и создание документов' : 'Quick navigation and document creation'",
+    "ru": "Быстрая навигация и создание документов",
+    "en": "Quick navigation and document creation",
+    "full": "language === 'ru' ? 'Быстрая навигация и создание документов' : 'Quick navigation and document creation'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/KeyboardShortcutsModal.tsx",
+    "match": "language === 'ru' ? 'Нажмите' : 'Press'",
+    "ru": "Нажмите",
+    "en": "Press",
+    "full": "language === 'ru' ? 'Нажмите' : 'Press'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/KeyboardShortcutsModal.tsx",
+    "match": "language === 'ru' ? 'в любое время' : 'anytime'",
+    "ru": "в любое время",
+    "en": "anytime",
+    "full": "language === 'ru' ? 'в любое время' : 'anytime'",
+    "type": "ru"
+  },
+  {
+    "file": "src/components/KeyboardShortcutsModal.tsx",
+    "match": "language === 'ru' ? 'Закрыть' : 'Close'",
+    "ru": "Закрыть",
+    "en": "Close",
+    "full": "language === 'ru' ? 'Закрыть' : 'Close'",
+    "type": "ru"
+  }
+]

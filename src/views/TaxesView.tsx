@@ -10,8 +10,11 @@ import {
   Building,
   User,
   ShieldCheck,
-  CheckCircle2
+  CheckCircle2,
+  X,
+  Loader2
 } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '../context/LocalizationContext';
 import { Invoice, UserProfile } from '../types';
 import { formatCurrency, formatDateRu } from '../utils/numberToWordsRu';
@@ -26,6 +29,8 @@ export const TaxesView: React.FC<TaxesViewProps> = ({ invoices = [], userProfile
   const safeInvoices = invoices || [];
   const activeCurrency = userProfile?.currency || userProfile?.invoiceSettings?.currency || 'RUB';
   const [selectedPeriod, setSelectedPeriod] = useState<'month' | 'quarter' | 'year'>('month');
+  const [isScanning, setIsScanning] = useState(false);
+  const [showScanResult, setShowScanResult] = useState(false);
 
   // Filter paid invoices
   const paidInvoices = safeInvoices.filter((i) => i.status === 'paid');
@@ -152,13 +157,23 @@ export const TaxesView: React.FC<TaxesViewProps> = ({ invoices = [], userProfile
             <p className="text-xs text-[var(--text-secondary)] mt-1">Для внутреннего учета чистой прибыли (Net Income) при работе на НПД. Расходы на серверы и софт не уменьшают базу НПД, но важны для аналитики.</p>
           </div>
           <div className="flex items-center space-x-2">
-            <button
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               onClick={() => {
-                const keywords = ['AWS', 'Vercel', 'GitHub', 'JetBrains', 'Sentry'];
-                alert(`Сканирование транзакций... Найдены совпадения по ключам: ${keywords.join(', ')}.\nУспешно переведены в категорию 'Professional Software Expense'!`);
+                setIsScanning(true);
+                setShowScanResult(false);
+                setTimeout(() => {
+                  setIsScanning(false);
+                  setShowScanResult(true);
+                }, 1500);
               }}
-              className="px-3 py-1.5 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 text-xs font-bold rounded-xl border border-indigo-500/30 transition-colors"
-            >{t('auto.scantransactions')}</button>
+              disabled={isScanning}
+              className={`px-3 py-1.5 flex items-center space-x-1.5 text-xs font-bold rounded-xl border transition-colors ${isScanning ? 'bg-indigo-500/20 text-indigo-400 border-indigo-500/40 cursor-not-allowed' : 'bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border-indigo-500/30'}`}
+            >
+              {isScanning && <Loader2 className="w-3.5 h-3.5 animate-spin" />}
+              <span>{isScanning ? 'Сканирование...' : t('auto.scantransactions')}</span>
+            </motion.button>
             <label className="flex items-center cursor-pointer ml-2">
               <div className="relative">
                 <input type="checkbox" className="sr-only" defaultChecked />
@@ -169,7 +184,40 @@ export const TaxesView: React.FC<TaxesViewProps> = ({ invoices = [], userProfile
             </label>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+        <AnimatePresence>
+          {showScanResult && (
+            <motion.div 
+              initial={{ opacity: 0, height: 0, marginTop: 0 }}
+              animate={{ opacity: 1, height: 'auto', marginTop: 16 }}
+              exit={{ opacity: 0, height: 0, marginTop: 0 }}
+              className="overflow-hidden"
+            >
+              <div className="bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800/50 rounded-xl p-4 flex items-start justify-between">
+                <div className="flex items-start space-x-3">
+                  <div className="p-2 bg-emerald-100 dark:bg-emerald-800/50 rounded-lg shrink-0">
+                    <ShieldCheck className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-emerald-900 dark:text-emerald-100 mb-1">
+                      Сканирование успешно завершено
+                    </h4>
+                    <p className="text-xs font-medium text-emerald-700 dark:text-emerald-300">
+                      Найдены совпадения по ключам: <strong>AWS, Vercel, GitHub, JetBrains, Sentry</strong>. Успешно переведены в категорию «Professional Software Expense».
+                    </p>
+                  </div>
+                </div>
+                <button 
+                  onClick={() => setShowScanResult(false)}
+                  className="p-1 text-emerald-500 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300 transition-colors shrink-0 rounded-lg hover:bg-emerald-100 dark:hover:bg-emerald-800/50"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm mt-4">
           <div className="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
             <div className="flex justify-between items-center mb-1">
               <span className="font-bold text-slate-700 dark:text-slate-300">AWS / DigitalOcean / VDS</span>

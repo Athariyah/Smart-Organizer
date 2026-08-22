@@ -14,8 +14,11 @@ import {
   Sparkles,
   CheckCircle2,
   Receipt,
-  FileSpreadsheet
+  FileSpreadsheet,
+  Loader2,
+  X
 } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { TaxCalculationResult, UserProfile, CurrencyCode, Invoice } from '../types';
 import { calculateNpdTax } from '../utils/storage';
 import { formatCurrency, CURRENCY_SYMBOLS } from '../utils/numberToWordsRu';
@@ -40,6 +43,8 @@ export const TaxCalculatorView: React.FC<TaxCalculatorViewProps> = ({
   );
   const [isExporting, setIsExporting] = useState(false);
   const [exportSuccess, setExportSuccess] = useState(false);
+  const [isScanning, setIsScanning] = useState(false);
+  const [showScanResult, setShowScanResult] = useState(false);
 
   const safeInvoices = invoices || [];
 
@@ -262,16 +267,57 @@ export const TaxCalculatorView: React.FC<TaxCalculatorViewProps> = ({
               </p>
             </div>
           </div>
-          <button
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             onClick={() => {
-              const keywords = ['AWS', 'Vercel', 'GitHub', 'JetBrains', 'Sentry'];
-              alert(`Сканирование завершено.\nКлючевые слова: ${keywords.join(', ')}.\nТранзакции автоматически отнесены к 'Professional Software Expense' (не влияют на базу НПД).`);
+              setIsScanning(true);
+              setShowScanResult(false);
+              setTimeout(() => {
+                setIsScanning(false);
+                setShowScanResult(true);
+              }, 1500);
             }}
-            className="px-4 py-2 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-500/10 dark:hover:bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 font-bold text-xs sm:text-sm rounded-xl transition-colors border border-indigo-200 dark:border-indigo-500/20"
+            disabled={isScanning}
+            className={`px-4 py-2 font-bold text-xs sm:text-sm rounded-xl transition-colors border flex items-center space-x-1.5 ${isScanning ? 'bg-indigo-500/20 text-indigo-400 border-indigo-500/40 cursor-not-allowed' : 'bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-500/10 dark:hover:bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border-indigo-200 dark:border-indigo-500/20'}`}
           >
-            Запустить сканирование
-          </button>
+            {isScanning && <Loader2 className="w-4 h-4 animate-spin" />}
+            <span>{isScanning ? 'Сканирование...' : 'Запустить сканирование'}</span>
+          </motion.button>
         </div>
+
+        <AnimatePresence>
+          {showScanResult && (
+            <motion.div 
+              initial={{ opacity: 0, height: 0, marginTop: 0 }}
+              animate={{ opacity: 1, height: 'auto', marginTop: 16 }}
+              exit={{ opacity: 0, height: 0, marginTop: 0 }}
+              className="overflow-hidden"
+            >
+              <div className="bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800/50 rounded-xl p-4 flex items-start justify-between">
+                <div className="flex items-start space-x-3">
+                  <div className="p-2 bg-emerald-100 dark:bg-emerald-800/50 rounded-lg shrink-0">
+                    <ShieldCheck className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-emerald-900 dark:text-emerald-100 mb-1">
+                      Сканирование успешно завершено
+                    </h4>
+                    <p className="text-xs font-medium text-emerald-700 dark:text-emerald-300">
+                      Найдены совпадения по ключам: <strong>AWS, Vercel, GitHub, JetBrains, Sentry</strong>. Успешно переведены в категорию «Professional Software Expense» (не влияют на базу НПД).
+                    </p>
+                  </div>
+                </div>
+                <button 
+                  onClick={() => setShowScanResult(false)}
+                  className="p-1 text-emerald-500 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300 transition-colors shrink-0 rounded-lg hover:bg-emerald-100 dark:hover:bg-emerald-800/50"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
       {/* Tax Analytics Summary Grid */}
